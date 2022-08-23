@@ -181,7 +181,7 @@ Then within each Pod template, we specify:
 > Their labels are a consistent way to identify them and use them.
 > You will see this pattern in Service and Ingress objects soon.
 
-From repo root, run `kubectl apply -f /k8s/manifests/backend-deployment.yaml`.
+From repo root, run `kubectl apply -f k8s/manifests/backend-deployment.yaml`.
 
 You can verify if your Deployment is running fine with command  
 `kubectl get deployment/backend --watch`, e.g.
